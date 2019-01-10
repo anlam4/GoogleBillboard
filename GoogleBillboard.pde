@@ -7,7 +7,7 @@ public void setup()
   while(!prime && i < e.length()-10) {
     ten = Double.parseDouble(e.substring(i, i+10));
     prime = isPrime(ten);
-    i += 10;
+    i++;
   }
   if(prime)
     System.out.println(ten + " is a prime number.");
